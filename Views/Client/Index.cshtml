@@ -1,0 +1,12 @@
+﻿
+
+<h1>View Data </h1>
+
+@{ 
+    // Convert Static Data to Var
+    var Name = (string)base.ViewData["Name"];
+    var age = (int)base.ViewData["Age"];
+}
+
+<h3>Name : @Name</h3>
+<h3>Age :- @age</h3>
